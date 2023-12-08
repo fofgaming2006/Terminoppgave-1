@@ -1,0 +1,204 @@
+  .body1 {
+      background-color: #c9d6ff;
+      background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 90vh;
+  }
+
+  .body2 {
+      background-color: #c9d6ff;
+      background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 90vh;
+  }
+
+  .body3 {
+      background-color: #c9d6ff;
+      background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  }
+
+  .body4 {
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+  a {
+      text-decoration: none;
+  }
+
+  input {
+      font-family: Inter;
+      outline: 0;
+      background-color: #eee;
+      border: none;
+      margin: 6px;
+      padding: 10px 15px;
+      font-size: 13px;
+      border-radius: 8px;
+      width: 75%;
+      outline: none;
+  }
+
+  .container {
+      background-color: #ffffffd6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 50px;
+      height: 125%;
+  }
+
+  .button {
+      background-color: #512da8;
+      color: #fff;
+      font-size: 12px;
+      padding: 10px 45px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+
+  .logout-button {
+      display: flex;
+      justify-content: center;
+      background-color: #512da8;
+      color: #fff;
+      font-size: 13px;
+      padding: 10px 45px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+
+  .header {
+    display: flex;
+    justify-content: right;
+}
+
+
+  .button.hidden {
+      background-color: transparent;
+      border-color: #fff;
+  }
+
+  .title {
+      display: flex;
+      justify-content: center;
+      font-family: Inter;
+      color: black;
+      font-weight: 750;
+      font-size: 40px;
+  }
+
+  .welcome-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10vh;
+  }
+
+  .chat-others {
+      display: flex;
+      justify-content: center;
+  }
+
+  .form--hidden {
+      display: none;
+  }
+
+  .message_form {
+      font-family: Inter;
+      text-align: center;
+      margin-bottom: 1rem;
+  }
+
+  .message_form--success {
+      font-family: Inter;
+      color: rgb(99, 249, 99)
+  }
+
+  .message_form--error {
+      font-family: Inter;
+      color: rgb(237, 96, 96)
+  }
+
+  .fail {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: red;
+  }
+
+  .nope {
+      background-color: red;
+  }
+
+  .user_wrap {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .user_box {
+      font-family: Inter;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #000;
+      border: black solid 1px;
+      width: 10vw;
+      height: 10vh;
+      border-radius: 10px;
+  }
+
+  .login-button:hover {
+      background-color: white;
+      color: black;
+  }
+
+  .login-button:active {
+      transform: scale(0.98);
+  }
+
+  .form_text {
+      font-family: Inter;
+      font-weight: 600;
+      margin: 20px;
+  }
+
+  .form_link {
+      text-decoration-line: none;
+  }
+
+  .form_text:active {
+      transform: scale(0.98);
+  }
+
+  .form_link:hover {
+      color: rgb(190, 42, 42);
+  }
+
+  .welcome-box {
+      display: flex;
+
+  }
+
+  .chat-users {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 30px;
+  }
