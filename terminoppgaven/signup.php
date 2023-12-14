@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
             $error['1'] = "Email Address already exist";
         } else {
             // Kobler til databasen
-            $con = mysqli_connect('localhost', 'root', '', 'terminoppgave')
+            $con = mysqli_connect('localhost', 'root', 'admin', 'terminoppgave')
                 or die('Error connecting to MySQL server.');
 
             // Sjekker om passordene stemmer overens
