@@ -1,8 +1,8 @@
 <?php
 // Database connection parameters
 $dbhost = "localhost"; // Linknavn for databasen
-$dbuser = ""; // Brukernavn for databasebrukeren
-$dbpass = ""; // Passord for databasebrukeren
+$dbuser = "admin"; // Brukernavn for databasebrukeren
+$dbpass = "root"; // Passord for databasebrukeren
 $dbbase = "terminoppgave"; // Databasenavn
 
 // Forsøker å opprette en databaseforbindelse
