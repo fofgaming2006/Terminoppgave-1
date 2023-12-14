@@ -44,7 +44,7 @@ include("connections.php"); // Inkluderer filen som håndterer databaseforbindel
         $password = ($_POST['password']);
 
         // Connects to database
-        $con = mysqli_connect('localhost', 'admin', 'root', 'terminoppgave')
+        $con = mysqli_connect('localhost', 'root', 'admin', 'terminoppgave')
             or die('Error connecting to MYSQL server.');
 
         $query = "SELECT * from users where username='$username' and password='$password'";
